@@ -4,6 +4,8 @@ Dockerfile for [3d-photo-inpainting](https://github.com/vt-vl-lab/3d-photo-inpai
 
 **NOTE:**
 
-You'll likely need to wrap your script invocation in xvfb-run, e.g.:
+You'll need CUDA 10.1 or greater for this container to work.
+
+You'll also likely need to wrap your script invocation in xvfb-run, e.g.:
 
     xvfb-run python main.py --config argument.yml
